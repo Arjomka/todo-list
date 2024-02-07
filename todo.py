@@ -7,16 +7,22 @@
 
 def add(list, item):
   # https://www.w3schools.com/python/python_lists_add.asp
+  list.append(item)
+  print(item)
   pass
 
 
 def remove(list, index):
   # https://www.w3schools.com/python/python_lists_remove.asp
+  list.pop(index)
+  print(index)
   pass
 
 
 def clear(list):
   # https://www.w3schools.com/python/python_lists_remove.asp
+  list.remove(0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10)
+  print(list)
   pass
 
 
@@ -50,3 +56,5 @@ while True:
     show(list)
   else:
     print("Invalid input")
+
+
